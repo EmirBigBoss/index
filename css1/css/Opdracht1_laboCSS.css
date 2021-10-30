@@ -1,0 +1,22 @@
+body {
+    margin: 1em;
+}
+h1 {
+    color: darkblue;
+}
+h3{
+    color: black;
+}
+p{
+    color: red;
+}
+#one {
+    float: left;
+    width: 40em;
+    height: 30em;
+}
+#two {
+    float: inside;
+    width: 50em;
+    height: 20em
+}
