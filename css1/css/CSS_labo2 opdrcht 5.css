@@ -1,0 +1,8 @@
+.hyperlink {
+    margin: 0;
+    padding: 20px 0 20px 30px;
+    background-image: url("img/Hyperlink.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}

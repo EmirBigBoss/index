@@ -1,0 +1,18 @@
+li {
+    margin: 0;
+    padding: 20px 0 20px 30px;
+    list-style: none;
+    background-image: url("img/unchecked.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+.checked {
+    margin: 0;
+    padding: 20px 0 20px 30px;
+    list-style: none;
+    background-image: url("img/checked.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
