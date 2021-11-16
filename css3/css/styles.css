@@ -1,0 +1,52 @@
+
+section {
+    font-family: Calibri;
+    margin-bottom: 5px;
+}
+section > h3 {
+    background-color: #2B2D42;
+    color: ghostwhite;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 0;
+}
+
+section > ul {
+    background-color: #8D99AE;
+    margin-top: 0;
+}
+
+.image {
+    background-image: url("https://netflixinbelgie.be/wp-content/uploads/2018/10/Harry-Potter-films-Netflix-810x456.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    padding: 20px 0 150px 20px;
+    background-position: 20px 50px;
+}
+li {
+    padding-bottom: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 5px 5px 5px;
+}
+
+th {
+    background-color: #8D99AE;
+
+}
+td {
+    background-color: lightgrey;
+    font-weight: bold;
+}
+.table {
+    margin: auto;
+    width: 30%;
+}
+.table > h3 {
+    margin-bottom: 5px;
+}
+.name {
+    color: blue;
+}
