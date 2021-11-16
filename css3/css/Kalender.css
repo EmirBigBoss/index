@@ -1,0 +1,37 @@
+.vrijeDag
+{
+    background-color: orange;
+}
+.eenMaand
+{
+    background-color: darkgrey !important;
+    color: dimgrey;
+
+}
+tbody tr :first-child:not(a), tbody tr :last-child:not(a) {
+    background-color:lightskyblue;
+}
+
+thead th{
+    background-color: cornflowerblue;
+
+}
+
+thead td{
+    padding: 10px;
+    background-color:rgb(35,37,70);
+    color: deepskyblue;
+}
+table {
+    margin: auto;
+
+    border-collapse: collapse;
+}
+th, td {
+    font-size: 50px;
+    border: 2px black;
+    border-style: dotted;
+}
+table {
+    border: 3px solid black;
+}
