@@ -1,0 +1,123 @@
+.display {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 90px;
+    font-size: 20px;
+    color: red;
+}
+
+section {
+    border-style: solid;
+    margin-right: 150px;
+
+}
+
+.one{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.explanation {
+    color: red;
+    font-size: 20px;
+}
+
+#one {
+    background-image: url("Image/voorbeeld1.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+#two {
+    background-image: url("Image/voorbeeld2.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+#three {
+    background-image: url("Image/voorbeeld3.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+#four {
+    background-image: url("Image/voorbeeld4.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+#five {
+    background-image: url("Image/voorbeeld1inline.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+#six {
+    background-image: url("Image/voorbeeld2inline.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+#seven {
+    background-image: url("Image/voorbeeld3inline.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+#eight {
+    background-image: url("Image/voorbeeld4inline.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+#nine {
+    background-image: url("Image/voorbeeld1inlineblock.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+#ten {
+    background-image: url("Image/voorbeeld2inlineblock.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+#eleven {
+    background-image: url("Image/voorbeeld3inlineblock.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
+#twelve {
+    background-image: url("Image/voorbeeld4inlineblock.JPG");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 180px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5)
+}
