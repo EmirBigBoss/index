@@ -1,0 +1,23 @@
+section {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h3 {
+    margin-left: 20px;
+}
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.left {
+    float: left;
+
+}
+
+.right {
+    float: right;
+}
