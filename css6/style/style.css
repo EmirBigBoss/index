@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+.lighter {
+    background-color: darkgrey;
+    border-right: 10px solid white;
+    margin: 0 0 5px 0;
+}
+
+.darker {
+    background-color: dimgrey;
+    padding: 10px;
+    border-right: 10px solid white;
+}
+
+.row.last > .col-4 {
+    width: 10px;
+}
+
+div {
+    padding-bottom: 10px;
+    height: 200px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
