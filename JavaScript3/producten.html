@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Demonstratie slider</title>
+
+	<link rel="stylesheet" href="styles/product.css"/>
+</head> 
+<body>
+<table>
+	<tr>
+		<th>Producten</th>
+		<th>Prijs</th>
+		<th>Aantal</th>
+		<th>btw</th>
+		<th>Subtotaal</th>
+	</tr>
+	<tr>
+		<td>product1</td>
+		<td class="line prijs"><span>10.00</span> Eur</td>
+		<td><input type="number" value="0" class="numeric" id="product1"></td>
+		<td class="line btw"><span>6</span>%</td>
+		<td class="line out">
+			<span>0.00</span>
+			Eur</td>
+	</tr>
+	<tr>
+		<td>product2</td>
+		<td class="line prijs"><span>15.00</span>Eur</td>
+		<td><input type="number" value="0" class="numeric" id="product2"></td>
+		<td class="line btw"><span>21</span> %</td>
+		<td class="line out">
+			<span>0.00</span>
+			Eur</td>
+	</tr>
+	<tr>
+		<td>product3</td>
+		<td class="line prijs"><span>12.20</span>Eur</td>
+		<td><input type="number" value="0" class="numeric" id="product3"></td>
+		<td class="line btw"><span>21</span>%</td>
+		<td class="line out">
+			<span>0.00</span>
+			Eur
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4">totaal</td>
+		<td class="line prijs">
+			<span id="total">0.00</span>
+			Eur
+		</td>
+	</tr>
+</table>
+<div>
+	<button id="herbereken">Herbereken</button>
+</div>
+<script type="text/javascript" charset="utf-8" src="scripts/product.js"></script>
+</body> 
+</html> 
