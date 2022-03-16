@@ -24,9 +24,9 @@ const opdracht = () => {
 	let btw3= parseFloat(btw[2].textContent).toFixed(2);
 
 	let subtotaal= document.getElementsByClassName("out");
-	let subtotaal1= parseFloat((product1 * aantal1) * ((btw1+ 100) / 100) + (prijs1* aantal1)).toFixed(2);
-	let subtotaal2= parseFloat((product2 * aantal2) * ((btw2 + 100) / 100) + (prijs2 * aantal2)).toFixed(2);
-	let subtotaal3= parseFloat((product3 * aantal3) * ((btw3+ 100) / 100) + (prijs3 * aantal3)).toFixed(2);
+	let subtotaal1= parseFloat((product1 * aantal1) * ((btw1+ 100) / 100) + (product1* aantal1)).toFixed(2);
+	let subtotaal2= parseFloat((product2 * aantal2) * ((btw2 + 100) / 100) + (product2 * aantal2)).toFixed(2);
+	let subtotaal3= parseFloat((product3 * aantal3) * ((btw3+ 100) / 100) + (product3 * aantal3)).toFixed(2);
 	subtotaal[0].textContent= subtotaal1;
 	subtotaal[1].textContent= subtotaal2;
 	subtotaal[2].textContent = subtotaal3;
