@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/Formwaarde.css">
+
+    <title>Formwaarde</title>
+</head>
+<body>
+<div>
+<label for="roker">Is roker</label>
+<input type="checkbox" id="roker">
+</div>
+<div>
+    <span>Moedertaal</span>
+
+    <input type="radio" name="language" id="Ned">
+    <label for="Ned">Nederlands</label>
+    <input type="radio" name="language" id="Frans">
+    <label for="Frans">Frans</label>
+    <input type="radio" name="language" id="Eng">
+    <label for="Eng">Engels</label>
+</div>
+<div>
+    <span>Favoriete buurland</span>
+    <select id="neighbour" name="land">
+        <option name="Nederland" id="nl">Nederland</option>
+        <option name="Luxemburg" id="lu">Luxemburg</option>
+        <option name="Duitsland" id="de">Duitsland</option>
+        <option name="Frankrijk" id="fr">Frankrijk</option>
+    </select>
+</div>
+<div>
+    <span>Bestelling</span>
+    <select id="order" name="order" multiple>
+        <option name="biefstuk" id="order1">biefstuk</option>
+        <option name="krant" id="order2">krant</option>
+        <option name="brood" id="order3">brood</option>
+        <option name="aardappelen" id="order4">aardappelen</option>
+        <option name="chips" id="order5">chips</option>
+        <option name="melk" id="order6">melk</option>
+
+    </select>
+</div>
+<div>
+    <button id="button">Toon resultaat</button>
+</div>
+<script type="text/javascript" charset="utf-8" src="scripts/Formwaarde.js"></script>
+</body>
+</html>
