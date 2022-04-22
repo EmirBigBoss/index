@@ -1,0 +1,36 @@
+html, body {
+    margin: 0px;
+}
+
+#playField {
+
+    border:solid 1px black;
+    box-sizing:border-box;
+    height: 800px;
+    width: 600px;
+
+    // aanvullen met hoogte en breedte
+}
+
+img {
+    position: absolute;
+}
+
+button {
+    float: left;
+    margin: 5px;
+}
+
+.score > div {
+    display: inline-block;
+}
+
+.hiddenButton {
+    display: none;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
