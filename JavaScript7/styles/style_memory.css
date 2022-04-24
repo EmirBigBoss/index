@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: deepskyblue;
+}
+
+.playField {
+    height: 800px;
+    width: 1500px;
+    background: white;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.cards, .card, .view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cards {
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards .card {
+    cursor: pointer;
+    position: relative;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    height: calc(100% / 4 - 10px);
+    width: calc(100% / 4 - 10px);
+
+}
+
+.cards .card .view {
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    background: blue;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 3px 10px royalblue;
+    transition: transform 0.25s linear;
+}
+
+.card .front-view .material-icons {
+    background:white;
+    width: 100px;
+}
+
+.card .back-view {
+    transform: rotateY(-180deg);
+}
+
+.card .back-view img {
+    max-width: 100px;
+}
+
+.card.flip .front-view {
+    transform: rotateY(180deg);
+}
+
+.card.flip .back-view {
+    transform: rotateY(0);
+}
+
+.found {
+    visibility: hidden;
+}
+
+.flipCard {
+    transform: rotateY(180deg);
+}
